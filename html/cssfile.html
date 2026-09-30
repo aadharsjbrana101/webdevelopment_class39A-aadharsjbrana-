@@ -1,0 +1,491 @@
+/* =========================
+   GENERAL PAGE
+   ========================= */
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f4f7;
+
+    color: #222;
+
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+
+    background-color: #1e293b;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+}
+
+
+header h1 {
+
+    margin: 0;
+
+    font-size: 40px;
+
+}
+
+
+header h2 {
+
+    margin-top: 10px;
+
+    font-weight: normal;
+
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+nav {
+
+    margin-top: 25px;
+
+}
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    margin: 0 12px;
+
+}
+
+
+nav a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+/* =========================
+   SECTIONS
+   ========================= */
+
+section {
+
+    background-color: white;
+
+    max-width: 900px;
+
+    margin: 30px auto;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* =========================
+   INTRODUCTION
+   ========================= */
+
+#introduction h2 {
+
+    text-align: left;
+
+    font-weight: bold;
+
+}
+
+
+#introduction p {
+
+    text-align: justify;
+
+    line-height: 1.8;
+
+}
+
+
+/* =========================
+   PROFILE IMAGE
+   ========================= */
+
+.profile {
+
+    text-align: center;
+
+}
+
+
+.profile figure {
+
+    margin: 20px auto;
+
+}
+
+
+.profile img {
+
+    width: 300px;
+
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+}
+
+
+.profile figcaption {
+
+    margin-top: 12px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
+
+
+/* =========================
+   EXPERIENCE
+   ========================= */
+
+#experience li {
+
+    padding: 12px;
+
+    font-size: 18px;
+
+}
+
+
+/* Light, Bold, Light, Bold */
+
+#experience li:nth-child(odd) {
+
+    font-weight: 300;
+
+}
+
+
+#experience li:nth-child(even) {
+
+    font-weight: bold;
+
+}
+
+
+/* =========================
+   SKILLS TABLE
+   ========================= */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+}
+
+
+th {
+
+    background-color: #1e293b;
+
+    color: white;
+
+    padding: 15px;
+
+    font-size: 18px;
+
+}
+
+
+td {
+
+    padding: 14px;
+
+    text-align: center;
+
+    border: 1px solid #ddd;
+
+}
+
+
+tr:nth-child(even) {
+
+    background-color: #f1f5f9;
+
+}
+
+
+tr:hover {
+
+    background-color: #dbeafe;
+
+}
+
+
+/* =========================
+   PROJECTS
+   ========================= */
+
+#projects ul {
+
+    padding-left: 25px;
+
+}
+
+
+#projects li {
+
+    margin: 15px 0;
+
+    padding: 12px;
+
+    background-color: #f1f5f9;
+
+    border-left: 5px solid #1e293b;
+
+    border-radius: 5px;
+
+}
+
+
+#projects li:hover {
+
+    background-color: #dbeafe;
+
+}
+
+
+/* =========================
+   YOUTUBE VIDEO
+   ========================= */
+
+.video-container {
+
+    text-align: center;
+
+}
+
+
+.video-container iframe {
+
+    width: 80%;
+
+    max-width: 560px;
+
+    height: 315px;
+
+    border: none;
+
+    border-radius: 12px;
+
+}
+
+
+/* =========================
+   CONTACT FORM
+   ========================= */
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+form label {
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+}
+
+
+form input,
+form select {
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+}
+
+
+.gender {
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+
+.gender label {
+
+    font-weight: normal;
+
+}
+
+
+.gender input {
+
+    margin-right: 5px;
+
+}
+
+
+/* =========================
+   SUBMIT BUTTON
+   ========================= */
+
+button {
+
+    margin-top: 20px;
+
+    padding: 12px;
+
+    background-color: #1e293b;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background-color: #334155;
+
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+
+    background-color: #1e293b;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 40px;
+
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 700px) {
+
+
+    header h1 {
+
+        font-size: 30px;
+
+    }
+
+
+    nav a {
+
+        display: block;
+
+        margin: 12px 0;
+
+    }
+
+
+    section {
+
+        margin: 20px 10px;
+
+        padding: 20px;
+
+    }
+
+
+    .profile img {
+
+        width: 100%;
+
+        max-width: 300px;
+
+        height: auto;
+
+    }
+
+
+    .video-container iframe {
+
+        width: 100%;
+
+        height: auto;
+
+        aspect-ratio: 16 / 9;
+
+    }
+
+
+    table {
+
+        font-size: 14px;
+
+    }
+
+
+    .gender {
+
+        flex-direction: column;
+
+        gap: 5px;
+
+    }
+
+}
